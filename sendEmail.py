@@ -3,8 +3,8 @@ import smtplib
 
 
 def send_email(email, Hits):
-    from_email = "webappstest2019@gmail.com"
-    from_password = "shosperm"
+    from_email = "--------@----.com"
+    from_password = "--------"
     to_email = email
 
     subject = "Restaurants Data"

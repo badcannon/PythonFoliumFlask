@@ -246,7 +246,7 @@ def NeedUpdate(dateString, now):
 
 app = Flask(__name__)
 app.config[
-    'SQLALCHEMY_DATABASE_URI'] = 'postgres://lbtexrknzvhqco:67a700717a56aa0b91963409e3ca6778ffc0d16c618f43df92443e4bc91ff505@ec2-54-83-33-14.compute-1.amazonaws.com:5432/d41p4rsuca2aje?sslmode=require'
+    'SQLALCHEMY_DATABASE_URI'] = 'postGRES! <FILL ME !!!!!!!!!!!!!!!>'
 app.config['TEMPLATES_AUTO_RELOAD'] = True
 # By default the method is get so pass the method as a list !
 db = SQLAlchemy(app)
@@ -312,8 +312,7 @@ def success():
         else:
             return render_template(
                 "Home.html",
-                text=
-                "Looks Like Something Went Wrong Or We Dont Serve that Location YET!"
+                text="Looks Like Something Went Wrong Or We Dont Serve that Location YET!"
             )
 
 
