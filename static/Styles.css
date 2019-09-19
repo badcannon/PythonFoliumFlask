@@ -1,0 +1,118 @@
+.containerCustom {
+  margin-top: 30%;
+}
+
+.navbar-brand>a {
+  text-decoration: none;
+  color: #8036e0;
+  font-weight: bold;
+  font-size: 24px;
+  font-style: italic;
+}
+
+.navbar-default {
+  background: #2f006b;
+}
+
+.navbar-brand>a:hover {
+  color: whitesmoke;
+}
+
+.navbar-default .navbar-nav>li>a {
+  font-size: 18px;
+  font-weight: bold;
+  color: #8036e0;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+  color: white;
+}
+
+.icon-bar {
+  background-color: #2f006b;
+}
+
+.fit {
+  margin-top: 5px;
+
+}
+
+.btn-primary {
+  width: 200px;
+  height: 60px;
+  background: #2f006b;
+  position: relative;
+  left: 40%;
+}
+
+form {
+  border: 5px solid #2f006b;
+  padding: 20px;
+  border-radius: 1vm;
+  background: aliceblue;
+  padding-top: 10%;
+
+}
+
+input {
+  transition: all 0.2s ease-out;
+}
+
+body {
+  background: whitesmoke;
+}
+
+.center {
+  position: relative;
+  left: 25%;
+  margin-bottom: 50px;
+  font-weight: bold;
+  font-size: 50px;
+  color: #2f006b;
+}
+
+@media (min-width:770px) and (max-width:992px) {
+  .center {
+    font-size: 30px;
+    left: 20%;
+  }
+
+  .btn-primary {
+    left: 35%;
+  }
+}
+
+@media (max-width:769px) {
+
+  .center {
+    font-size: 30px;
+    left: 20%;
+  }
+
+  .btn-primary {
+    left: 30%
+  }
+}
+
+@media (max-width:440px) {
+  .center {
+    font-size: 25px;
+    left: 20%;
+  }
+
+  .btn-primary {
+    left: 20%;
+  }
+}
+
+
+.Alert {
+
+  font-size: 20px;
+  color: red;
+  position: relative;
+  left: 20%;
+  margin-bottom: 30px;
+  font-weight: bold;
+
+}

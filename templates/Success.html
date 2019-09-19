@@ -1,0 +1,23 @@
+{%extends "Layout.html"%}
+{%block content%}
+<br><br />
+
+<h1>These Are as listed By Yelp.com!</h1>
+<div class="embed-responsive embed-responsive-16by9">
+    <iframe class="embed-responsive-item" name="iFrameName"></iframe>
+</div>
+<p>This data was scraped from <a href="http://www.yelp.com">yelp.com</a>.This Site is made for Educational Purpose only
+    !
+    You can Find the Source Code for this project <a href="#">Here.</a>
+
+</p>
+<div id="Val" style="display:none;">{{mapName | safe}}</div>
+<p>New Features On the Way ! </p>
+<script>
+    (function () {
+        var x = document.getElementById('Val').innerText;
+        document.getElementsByName('iFrameName')[0].src = x;
+
+    })();
+</script>
+{%endblock%}
